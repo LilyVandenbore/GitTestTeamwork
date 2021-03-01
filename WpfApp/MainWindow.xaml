@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Label x:Name="lblcounter" Content="Label" HorizontalAlignment="Left" Margin="43,62,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btncounter" Content="count" HorizontalAlignment="Left" Margin="41,108,0,0" VerticalAlignment="Top" Click="btncounter_Click"/>
+
         <Button Name="btnHelloWorld" Content="Say 'Hello, world!'" HorizontalAlignment="Left" Margin="666,33,0,0" VerticalAlignment="Top" Click="btnHelloWorld_Click"/>
         <Label Name="lblHelloWorld" Content="" HorizontalAlignment="Center" Margin="0,33,0,0" VerticalAlignment="Top"/>
 
