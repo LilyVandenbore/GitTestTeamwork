@@ -20,17 +20,17 @@ namespace WpfApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        private int counter;
-        
+        private int _counter;
+
         public MainWindow()
         {
-            counter = 0;
+            _counter = 0;
             InitializeComponent();
         }
         
         private void btncounter_Click(object sender, RoutedEventArgs e)
         {
-            lblcounter.Content = ++counter;
+            lblcounter.Content = ++_counter;
         }
     }
 }
