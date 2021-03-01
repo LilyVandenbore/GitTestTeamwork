@@ -24,5 +24,12 @@ namespace WpfApp
         {
             InitializeComponent();
         }
+        int counter;
+        private void btncounter_Click(object sender, RoutedEventArgs e)
+        {
+
+            counter++;
+            lblcounter.Content = counter;
+        }
     }
 }
