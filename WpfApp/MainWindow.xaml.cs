@@ -24,5 +24,10 @@ namespace WpfApp
         {
             InitializeComponent();
         }
+
+        private void btnHelloWorld_Click(object sender, RoutedEventArgs e)
+        {
+            lblHelloWorld.Content = "Hello, world!";
+        }
     }
 }
