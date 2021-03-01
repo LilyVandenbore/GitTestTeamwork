@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ConsoleApp
+﻿namespace ConsoleApp
 {
     class Program
     {
@@ -8,5 +6,4 @@ namespace ConsoleApp
         {
             // TODO: add hello world
         }
-    }
-}
+    }}
